@@ -6,28 +6,22 @@
 --------------------Configuration: helloworld - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\Administrator\AppData\Local\Temp\RSP9255.tmp" with contents
+Creating temporary file "C:\Users\Administrator\AppData\Local\Temp\RSP12DC.tmp" with contents
 [
 /nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/helloworld.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
 "C:\Users\Administrator\Desktop\gittest\C_note\C_note\HelloWorld\helloworld.cpp"
 ]
-Creating command line "cl.exe @C:\Users\Administrator\AppData\Local\Temp\RSP9255.tmp" 
-Creating temporary file "C:\Users\Administrator\AppData\Local\Temp\RSP9256.tmp" with contents
+Creating command line "cl.exe @C:\Users\Administrator\AppData\Local\Temp\RSP12DC.tmp" 
+Creating temporary file "C:\Users\Administrator\AppData\Local\Temp\RSP12ED.tmp" with contents
 [
 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/helloworld.pdb" /debug /machine:I386 /out:"Debug/helloworld.exe" /pdbtype:sept 
 .\Debug\helloworld.obj
 ]
-Creating command line "link.exe @C:\Users\Administrator\AppData\Local\Temp\RSP9256.tmp"
+Creating command line "link.exe @C:\Users\Administrator\AppData\Local\Temp\RSP12ED.tmp"
 <h3>Output Window</h3>
 Compiling...
 helloworld.cpp
-C:\Users\Administrator\Desktop\gittest\C_note\C_note\HelloWorld\helloworld.cpp(36) : warning C4508: 'main' : function should return a value; 'void' return type assumed
-C:\Users\Administrator\Desktop\gittest\C_note\C_note\HelloWorld\helloworld.cpp(16) : warning C4101: 'e' : unreferenced local variable
-C:\Users\Administrator\Desktop\gittest\C_note\C_note\HelloWorld\helloworld.cpp(16) : warning C4101: 'f' : unreferenced local variable
-C:\Users\Administrator\Desktop\gittest\C_note\C_note\HelloWorld\helloworld.cpp(16) : warning C4101: 'g' : unreferenced local variable
-C:\Users\Administrator\Desktop\gittest\C_note\C_note\HelloWorld\helloworld.cpp(18) : warning C4101: 'i' : unreferenced local variable
-C:\Users\Administrator\Desktop\gittest\C_note\C_note\HelloWorld\helloworld.cpp(19) : warning C4101: 'j' : unreferenced local variable
-C:\Users\Administrator\Desktop\gittest\C_note\C_note\HelloWorld\helloworld.cpp(34) : warning C4700: local variable 'c' used without having been initialized
+C:\Users\Administrator\Desktop\gittest\C_note\C_note\HelloWorld\helloworld.cpp(19) : warning C4508: 'main' : function should return a value; 'void' return type assumed
 Linking...
 
 
