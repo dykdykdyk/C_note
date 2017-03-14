@@ -1,16 +1,16 @@
 #include<stdio.h>
 /*
-指针作为函数参数
+测试
 */
-void swap(int *x,int *y)
-{
-	int temp;
-	temp = *x; *x=*y;*y=temp;
-	printf("x=%d,y=%d\n",*x,*y);
-}
+
 void main()
 {
-	int a=8,b=12;
-	swap(&a,&b);
-	printf("a=%d,b=%d\n",a,b);
+	int a[10], *p=a;
+	a[0]=0;
+	a[1]=1;
+	a[2]=2;
+	a[3]=3;
+	a[4]=4;
+	a[5]=5;
+	printf("a=%d\n",*p++);
 }
