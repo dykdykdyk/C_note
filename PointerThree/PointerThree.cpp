@@ -5,12 +5,10 @@
 
 void main()
 {
-	int a[10], *p=a;
-	a[0]=0;
-	a[1]=1;
-	a[2]=2;
-	a[3]=3;
-	a[4]=4;
-	a[5]=5;
-	printf("a=%d\n",*p++);
+	int a[4]={1,3,5,7};
+	int (*p)[4];
+	p=&a;  //如果这里写成 p=a的话  就报错了,指向a[0]
+	printf("%d\n",(*p)[3]);
+	char * string;
+	string ="I love China!";
 }
