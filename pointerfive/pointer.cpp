@@ -14,6 +14,12 @@ int main()
 	for(i=0;i<4;i++)
 		printf("%5.2f\t",*(p+i));
 	printf("\n");
+
+	char *name[]={"follow me","basic","g"};
+	char **pp;
+	pp=name+2;
+	printf("%d\n",**pp);
+	printf("%s\n",*pp);
 	return 0;
 }
 float *search(float(*pointer)[4],int n)
