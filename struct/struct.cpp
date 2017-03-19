@@ -8,13 +8,13 @@ struct Student
 	char name[20];//姓名
 	char sex;//性别
 	float score;//成绩
-}stu1;
+};
 struct Data
 {
 	char addr[30];
      struct Student st;
 };
-stu1 ={200501,"LinLin",'F',80.5};
+Student stu1 ={200501,"LinLin",'F',80.5};
 main()
 {
 	Student stu2;
